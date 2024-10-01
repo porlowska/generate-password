@@ -91,15 +91,15 @@
               <div class="relative flex items-start">
                 <div class="flex h-6 items-center">
                   <input
-                    id="comments"
-                    aria-describedby="comments-description"
-                    name="comments"
+                    id="lowercase"
+                    aria-describedby="lowercase-description"
+                    name="lowercase"
                     type="checkbox"
                     class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                   />
                 </div>
                 <div class="ml-3 text-sm leading-6">
-                  <label for="comments" class="font-medium text-gray-900"
+                  <label for="lowercase" class="font-medium text-gray-900"
                     >Lowercase letters</label
                   >
                 </div>
@@ -107,15 +107,15 @@
               <div class="relative flex items-start">
                 <div class="flex h-6 items-center">
                   <input
-                    id="candidates"
-                    aria-describedby="candidates-description"
-                    name="candidates"
+                    id="uppercase"
+                    aria-describedby="uppercase"
+                    name="uppercase"
                     type="checkbox"
                     class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                   />
                 </div>
                 <div class="ml-3 text-sm leading-6">
-                  <label for="candidates" class="font-medium text-gray-900"
+                  <label for="uppercase" class="font-medium text-gray-900"
                     >Uppercase letters</label
                   >
                 </div>
@@ -123,15 +123,15 @@
               <div class="relative flex items-start">
                 <div class="flex h-6 items-center">
                   <input
-                    id="candidates"
-                    aria-describedby="candidates-description"
-                    name="candidates"
+                    id="numbers"
+                    aria-describedby="numbers"
+                    name="numbers"
                     type="checkbox"
                     class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                   />
                 </div>
                 <div class="ml-3 text-sm leading-6">
-                  <label for="candidates" class="font-medium text-gray-900"
+                  <label for="numbers" class="font-medium text-gray-900"
                     >Numbers</label
                   >
                 </div>
@@ -139,21 +139,27 @@
               <div class="relative flex items-start">
                 <div class="flex h-6 items-center">
                   <input
-                    id="offers"
-                    aria-describedby="offers-description"
-                    name="offers"
+                    id="special"
+                    aria-describedby="special"
+                    name="special"
                     type="checkbox"
                     class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                   />
                 </div>
                 <div class="ml-3 text-sm leading-6">
-                  <label for="offers" class="font-medium text-gray-900"
+                  <label for="special" class="font-medium text-gray-900"
                     >Special characters</label
                   >
                 </div>
               </div>
             </div>
           </fieldset>
+          <button
+            type="button"
+            class="rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100"
+          >
+            Button text
+          </button>
         </form>
       </section>
       <section class="password">
@@ -176,14 +182,14 @@
           <span class="isolate inline-flex rounded-md shadow-sm">
             <button
               type="button"
-              class="relative inline-flex items-center rounded-l-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10"
+              class="relative inline-flex items-center rounded-l-md ring-1 ring-inset ring-gray-300 focus:z-10 bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100"
             >
               Copy to clipboard
             </button>
 
             <button
               type="button"
-              class="relative -ml-px inline-flex items-center rounded-r-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10"
+              class="relative -ml-px inline-flex items-center rounded-r-md ring-1 ring-inset ring-gray-300 focus:z-10 bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-red-600 shadow-sm hover:bg-red-100"
             >
               Clear
             </button>
